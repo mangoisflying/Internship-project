@@ -1,0 +1,603 @@
+{
+    "MainPage": "FormSet_1",
+    "FormSet": {
+        "FormSet_1": {
+            "Guid": "a04a27f4-df00-4d42-b55239511302113d",
+            "ClassGuid": "93039971-8545-4b04-b45e32eb8326040e",
+            "FormSetTitle": {
+                "English": "Test Page",
+                "Francais": "Test Page"
+            },
+            "FormSetHelp": {
+                "English": "This is a sample driver which is used to test the browser op-code operations.  This is for development purposes and not to be distributed in any form other than a test application.  Here is a set of wide ￱AAAAAAAAA￰ and narrow AAA!",
+                "Francais": "This is a sample driver which is used to test the browser op-code operations.  This is for development purposes and not to be distributed in any form other than a test application.  Here is a set of wide ￱AAAAAAAAA￰ and narrow AAA!"
+            },
+            "Form": {
+                "Form_1": {
+                    "FormTitle": {
+                        "English": "Test Page",
+                        "Francais": "Test Page"
+                    },
+                    "FormId": 8,
+                    "Statement": {
+                        "Statement_1": {
+                            "Statement_Type": "TEXT",
+                            "QuestionId": -1,
+                            "QuestionValue": -1,
+                            "Prompt": {
+                                "English": "This is Test Page",
+                                "Francais": "This is Test Page"
+                            },
+                            "Help": {
+                                "English": "This is text help",
+                                "Francais": "This is Spanish text help"
+                            },
+                            "VarStoreId": -1,
+                            "VarStoreInfo": -1,
+                            "Header_Flags": -1,
+                            "Flags": -1,
+                            "Expression": [],
+                            "TextTwo": "NULL"
+                        },
+                        "Statement_2": {
+                            "Statement_Type": "ONE_OF",
+                            "QuestionId": 1,
+                            "QuestionValue": 2,
+                            "Prompt": {
+                                "English": "How to deal with Checkbox",
+                                "Francais": "How to deal with Checkbox"
+                            },
+                            "Help": {
+                                "English": "My one-of help is going to be a long string to test out the efficiency of the ability of the I am tired of typing capabilities",
+                                "Francais": "Mi uno- de ayuda va a ser una cadena larga a probar fuera de la eficacia de la capacidad del yo es cansada de capacidades el pulsar."
+                            },
+                            "VarStoreId": 2,
+                            "VarStoreInfo": 41,
+                            "Header_Flags": 0,
+                            "Flags": 74,
+                            "Expression": [],
+                            "Option": {
+                                "Option_1": {
+                                    "Option_Name": {
+                                        "English": "Suppress the Checkbox",
+                                        "Francais": "Mi uno- del texto # 4"
+                                    },
+                                    "Option_Value": 0,
+                                    "Option_Flags": 2,
+                                    "Expression": []
+                                },
+                                "Option_2": {
+                                    "Option_Name": {
+                                        "English": "GrayOut the Checkbox",
+                                        "Francais": "Mi uno- del texto # 5"
+                                    },
+                                    "Option_Value": 1,
+                                    "Option_Flags": 2,
+                                    "Expression": []
+                                },
+                                "Option_3": {
+                                    "Option_Name": {
+                                        "English": "Enable Checkbox",
+                                        "Francais": "Mi uno- del texto # 6"
+                                    },
+                                    "Option_Value": 2,
+                                    "Option_Flags": 18,
+                                    "Expression": []
+                                }
+                            },
+                            "MinValue": 0,
+                            "MaxValue": 2,
+                            "Step": 0
+                        },
+                        "Statement_3": {
+                            "Statement_Type": "CHECKBOX",
+                            "QuestionId": 2,
+                            "QuestionValue": 1,
+                            "Prompt": {
+                                "English": "Activate this check box",
+                                "Francais": "Active Las Armas Nucleares"
+                            },
+                            "Help": {
+                                "English": "This is the help message for the activation of check boxes.  This is not to be confused with activating Czech boxes, since one can never tell what the ramifications are of activating foreign controlled boxes are.",
+                                "Francais": "Éste es el mensaje de la ayuda para la activación del armamento nuclear. Cuál es exactamente resistente calcular fuera sobre de eso?"
+                            },
+                            "VarStoreId": 4660,
+                            "VarStoreInfo": 92,
+                            "Header_Flags": 0,
+                            "Flags": 3,
+                            "Expression": [
+                                1,
+                                0
+                            ]
+                        },
+                        "Statement_4": {
+                            "Statement_Type": "STRING",
+                            "QuestionId": 3,
+                            "QuestionValue": "2",
+                            "Prompt": {
+                                "English": "This is input string",
+                                "Francais": "This is input string (fr-FR)"
+                            },
+                            "Help": {
+                                "English": "This string use Name/Value storage",
+                                "Francais": "This string use Name/Value storage"
+                            },
+                            "VarStoreId": 4660,
+                            "VarStoreInfo": 0,
+                            "Header_Flags": 0,
+                            "Flags": 0,
+                            "Expression": [
+                                1,
+                                0
+                            ],
+                            "MinSize": 0,
+                            "MaxSize": 40
+                        },
+                        "Statement_5": {
+                            "Statement_Type": "ORDERED_LIST",
+                            "QuestionId": 4,
+                            "QuestionValue": [
+                                3,
+                                1,
+                                4,
+                                2
+                            ],
+                            "Prompt": {
+                                "English": "Boot Order"
+                            },
+                            "Help": {
+                                "English": "",
+                                "Francais": ""
+                            },
+                            "VarStoreId": 4660,
+                            "VarStoreInfo": 102,
+                            "Header_Flags": 16,
+                            "Flags": 0,
+                            "Expression": [],
+                            "Option": {
+                                "Option_1": {
+                                    "Option_Name": {
+                                        "English": "ATAPI CD"
+                                    },
+                                    "Option_Value": 2,
+                                    "Option_Flags": 1,
+                                    "Expression": []
+                                },
+                                "Option_2": {
+                                    "Option_Name": {
+                                        "English": "IDE HDD"
+                                    },
+                                    "Option_Value": 1,
+                                    "Option_Flags": 1,
+                                    "Expression": []
+                                },
+                                "Option_3": {
+                                    "Option_Name": {
+                                        "English": "PXE"
+                                    },
+                                    "Option_Value": 3,
+                                    "Option_Flags": 1,
+                                    "Expression": []
+                                },
+                                "Option_4": {
+                                    "Option_Name": {
+                                        "English": "USB"
+                                    },
+                                    "Option_Value": 4,
+                                    "Option_Flags": 1,
+                                    "Expression": [
+                                        2
+                                    ]
+                                }
+                            },
+                            "MaxContainers": 8
+                        },
+                        "Statement_6": {
+                            "Statement_Type": "ONE_OF",
+                            "QuestionId": 5,
+                            "QuestionValue": 2,
+                            "Prompt": {
+                                "English": "Serial port number",
+                                "Francais": "Serial port number"
+                            },
+                            "Help": {
+                                "English": "My one-of help is going to be a long string to test out the efficiency of the ability of the I am tired of typing capabilities",
+                                "Francais": "Mi uno- de ayuda va a ser una cadena larga a probar fuera de la eficacia de la capacidad del yo es cansada de capacidades el pulsar."
+                            },
+                            "VarStoreId": 4660,
+                            "VarStoreInfo": 192,
+                            "Header_Flags": 0,
+                            "Flags": 16,
+                            "Expression": [],
+                            "Option": {
+                                "Option_1": {
+                                    "Option_Name": {
+                                        "English": "Serial port disable",
+                                        "Francais": "Serial port disable"
+                                    },
+                                    "Option_Value": 0,
+                                    "Option_Flags": 16,
+                                    "Expression": []
+                                },
+                                "Option_2": {
+                                    "Option_Name": {
+                                        "English": "Serial port 1",
+                                        "Francais": "Serial port 1"
+                                    },
+                                    "Option_Value": 1,
+                                    "Option_Flags": 0,
+                                    "Expression": []
+                                },
+                                "Option_3": {
+                                    "Option_Name": {
+                                        "English": "Serial port 2",
+                                        "Francais": "Serial port 2"
+                                    },
+                                    "Option_Value": 2,
+                                    "Option_Flags": 0,
+                                    "Expression": []
+                                },
+                                "Option_4": {
+                                    "Option_Name": {
+                                        "English": "Serial port 3",
+                                        "Francais": "Serial port 3"
+                                    },
+                                    "Option_Value": 3,
+                                    "Option_Flags": 0,
+                                    "Expression": []
+                                },
+                                "Option_5": {
+                                    "Option_Name": {
+                                        "English": "Serial port 4",
+                                        "Francais": "Serial port 4"
+                                    },
+                                    "Option_Value": 4,
+                                    "Option_Flags": 0,
+                                    "Expression": []
+                                }
+                            },
+                            "MinValue": 0,
+                            "MaxValue": 4,
+                            "Step": 0
+                        },
+                        "Statement_7": {
+                            "Statement_Type": "GOTO",
+                            "QuestionId": -1,
+                            "QuestionValue": -1,
+                            "Prompt": {
+                                "English": "Enter Test Sub Page",
+                                "Francais": "Enter Test Sub Page(fr-FR)"
+                            },
+                            "Help": {
+                                "English": "This is my goto help",
+                                "Francais": "This is my Spanish goto help"
+                            },
+                            "VarStoreId": 0,
+                            "VarStoreInfo": 65535,
+                            "Header_Flags": 0,
+                            "Flags": -1,
+                            "Expression": [],
+                            "Goto_FormId": 9,
+                            "FormSetId": -1,
+                            "DevicePath": -1
+                        },
+                        "Statement_8": {
+                            "Statement_Type": "GOTO",
+                            "QuestionId": 1,
+                            "QuestionValue": -1,
+                            "Prompt": {
+                                "English": "Goto ABC Information Sample FormSet",
+                                "Francais": "Goto ABC Information Sample FormSet(fr_FR)"
+                            },
+                            "Help": {
+                                "English": "When select this option, browser will go to another formset.",
+                                "Francais": "When select this option, browser will go to another formset."
+                            },
+                            "VarStoreId": 0,
+                            "VarStoreInfo": 65535,
+                            "Header_Flags": 0,
+                            "Flags": -1,
+                            "Expression": [],
+                            "Goto_FormId": 1,
+                            "FormSetId": "b3f56470-6141-4621-8f19704e577aa9e8",
+                            "DevicePath": -1
+                        }
+                    },
+                    "Expression": []
+                },
+                "Form_2": {
+                    "FormTitle": {
+                        "English": "Test Sub Page",
+                        "Francais": "Test Sub Page"
+                    },
+                    "FormId": 9,
+                    "Statement": {
+                        "Statement_1": {
+                            "Statement_Type": "SUBTITLE",
+                            "QuestionId": -1,
+                            "QuestionValue": -1,
+                            "Prompt": {
+                                "English": "My subtitle text",
+                                "Francais": "Mi texto del subtítulo"
+                            },
+                            "Help": "NULL",
+                            "VarStoreId": -1,
+                            "VarStoreInfo": -1,
+                            "Header_Flags": -1,
+                            "Flags": 0,
+                            "Expression": []
+                        },
+                        "Statement_2": {
+                            "Statement_Type": "TEXT",
+                            "QuestionId": -1,
+                            "QuestionValue": -1,
+                            "Prompt": {
+                                "English": "This is Test Sub Page",
+                                "Francais": "This is Test Sub Page"
+                            },
+                            "Help": {
+                                "English": "This is text help",
+                                "Francais": "This is Spanish text help"
+                            },
+                            "VarStoreId": -1,
+                            "VarStoreInfo": -1,
+                            "Header_Flags": -1,
+                            "Flags": -1,
+                            "Expression": [],
+                            "TextTwo": "NULL"
+                        },
+                        "Statement_3": {
+                            "Statement_Type": "NUMERIC",
+                            "QuestionId": 8,
+                            "QuestionValue": 40,
+                            "Prompt": {
+                                "English": "Non x-UEFI HII Option",
+                                "Francais": "Non x-UEFI HII Option"
+                            },
+                            "Help": {
+                                "English": "This is a HII option which has REST_STYLE flag but without the x-UEFI namespace UNI string associated. This HII option could be configured by either setup browser or the remote management in out-of-band such as Redfish service. This HII option is configured through EFI HII Configuration Routing Protocol becasue it doesn't have x-UEFI namespace UNI string."
+                            },
+                            "VarStoreId": 4660,
+                            "VarStoreInfo": 218,
+                            "Header_Flags": 48,
+                            "Flags": 16,
+                            "Expression": [],
+                            "MinValue": 0,
+                            "MaxValue": 240,
+                            "Step": 0
+                        },
+                        "Statement_4": {
+                            "Statement_Type": "TIME",
+                            "QuestionId": 9,
+                            "QuestionValue": -1,
+                            "Prompt": {
+                                "English": "System Time",
+                                "Francais": "Tiempo del sistema"
+                            },
+                            "Help": {
+                                "English": "This is the help for the Time (hour/minute/second).",
+                                "Francais": "Esto es la ayuda para el Tiempo (hora/minuto/segundo)."
+                            },
+                            "VarStoreId": 0,
+                            "VarStoreInfo": 65535,
+                            "Header_Flags": 0,
+                            "Flags": 16,
+                            "Expression": []
+                        },
+                        "Statement_5": {
+                            "Statement_Type": "TIME",
+                            "QuestionId": 10,
+                            "QuestionValue": "15:33:40",
+                            "Prompt": {
+                                "English": "System Time",
+                                "Francais": "Tiempo del sistema"
+                            },
+                            "Help": {
+                                "English": "System Time",
+                                "Francais": "Tiempo del sistema"
+                            },
+                            "VarStoreId": 4660,
+                            "VarStoreInfo": 199,
+                            "Header_Flags": 0,
+                            "Flags": 4,
+                            "Expression": []
+                        },
+                        "Statement_6": {
+                            "Statement_Type": "SUBTITLE",
+                            "QuestionId": -1,
+                            "QuestionValue": -1,
+                            "Prompt": {
+                                "English": "JZK's subtitle text",
+                                "Francais": "Mi texto del subtítulo"
+                            },
+                            "Help": "NULL",
+                            "VarStoreId": -1,
+                            "VarStoreInfo": -1,
+                            "Header_Flags": -1,
+                            "Flags": 0,
+                            "Expression": []
+                        },
+                        "Statement_7": {
+                            "Statement_Type": "DATE",
+                            "QuestionId": 11,
+                            "QuestionValue": "1/1/2004",
+                            "Prompt": {
+                                "English": "System Date",
+                                "Francais": "Fecha del sistema"
+                            },
+                            "Help": {
+                                "English": "This is the help for the Date (month/day/year). (Error checking will be done against month/day/year combinations that are not supported.)",
+                                "Francais": "Esto es la ayuda para el Fecha (mes/día/las). (Verificar de error se hará contra vez mes/día/las combinaciones de año que no se sostienen.)"
+                            },
+                            "VarStoreId": 0,
+                            "VarStoreInfo": 65535,
+                            "Header_Flags": 0,
+                            "Flags": 16,
+                            "Expression": []
+                        },
+                        "Statement_8": {
+                            "Statement_Type": "ACTION",
+                            "QuestionId": 4101,
+                            "QuestionValue": -1,
+                            "Prompt": {
+                                "English": "Exit now!",
+                                "Francais": "Salir ahora!"
+                            },
+                            "Help": {
+                                "English": "Exit now!",
+                                "Francais": "Salir ahora!"
+                            },
+                            "VarStoreId": 0,
+                            "VarStoreInfo": 65535,
+                            "Header_Flags": 4,
+                            "Flags": -1,
+                            "Expression": [],
+                            "QuestionConfig": 0
+                        },
+                        "Statement_9": {
+                            "Statement_Type": "GOTO",
+                            "QuestionId": -1,
+                            "QuestionValue": -1,
+                            "Prompt": {
+                                "English": "Enter Test Page",
+                                "Francais": "Enter Test Page(fr-FR)"
+                            },
+                            "Help": {
+                                "English": "This is my goto help",
+                                "Francais": "This is my Spanish goto help"
+                            },
+                            "VarStoreId": 0,
+                            "VarStoreInfo": 65535,
+                            "Header_Flags": 0,
+                            "Flags": -1,
+                            "Expression": [],
+                            "Goto_FormId": 8,
+                            "FormSetId": -1,
+                            "DevicePath": -1
+                        }
+                    },
+                    "Expression": []
+                }
+            },
+            "Expression": []
+        }
+    },
+    "Expression": {
+        "expression1": {
+            "Index": 1,
+            "StrVal": "Question1 = 0",
+            "Conditional": 10,
+            "NestedQuestion": [
+                {
+                    "Type": "Statement",
+                    "FormSet": "FormSet_1",
+                    "FormSetGuid": "a04a27f4-df00-4d42-b55239511302113d",
+                    "Form": "Form_1",
+                    "FormId": 8,
+                    "Statement": "Statement_3",
+                    "StatementId": ""
+                },
+                {
+                    "Type": "Statement",
+                    "FormSet": "FormSet_1",
+                    "FormSetGuid": "a04a27f4-df00-4d42-b55239511302113d",
+                    "Form": "Form_1",
+                    "FormId": 8,
+                    "Statement": "Statement_4",
+                    "StatementId": ""
+                }
+            ],
+            "OpCodeList": [
+                {
+                    "Type": 18,
+                    "QuestionId1": 1,
+                    "QuestionId2": -1,
+                    "Value": 0,
+                    "VariableName": "",
+                    "VariableGuid": "",
+                    "ListLength": 0,
+                    "List": []
+                }
+            ],
+            "QuestionList": [
+                1
+            ]
+        },
+        "expression0": {
+            "Index": 0,
+            "StrVal": "Question1 = 1",
+            "Conditional": 25,
+            "NestedQuestion": [
+                {
+                    "Type": "Statement",
+                    "FormSet": "FormSet_1",
+                    "FormSetGuid": "a04a27f4-df00-4d42-b55239511302113d",
+                    "Form": "Form_1",
+                    "FormId": 8,
+                    "Statement": "Statement_3",
+                    "StatementId": ""
+                },
+                {
+                    "Type": "Statement",
+                    "FormSet": "FormSet_1",
+                    "FormSetGuid": "a04a27f4-df00-4d42-b55239511302113d",
+                    "Form": "Form_1",
+                    "FormId": 8,
+                    "Statement": "Statement_4",
+                    "StatementId": ""
+                }
+            ],
+            "OpCodeList": [
+                {
+                    "Type": 18,
+                    "QuestionId1": 1,
+                    "QuestionId2": -1,
+                    "Value": 1,
+                    "VariableName": "",
+                    "VariableGuid": "",
+                    "ListLength": 0,
+                    "List": []
+                }
+            ],
+            "QuestionList": [
+                1
+            ]
+        },
+        "expression2": {
+            "Index": 2,
+            "StrVal": "Question2 = 0",
+            "Conditional": 10,
+            "NestedQuestion": [
+                {
+                    "Type": "Option",
+                    "FormSet": "FormSet_1",
+                    "FormSetGuid": "a04a27f4-df00-4d42-b55239511302113d",
+                    "Form": "Form_1",
+                    "FormId": 8,
+                    "Statement": "Statement_5",
+                    "StatementId": "Option_4"
+                }
+            ],
+            "OpCodeList": [
+                {
+                    "Type": 18,
+                    "QuestionId1": 2,
+                    "QuestionId2": -1,
+                    "Value": 0,
+                    "VariableName": "",
+                    "VariableGuid": "",
+                    "ListLength": 0,
+                    "List": []
+                }
+            ],
+            "QuestionList": [
+                2
+            ]
+        }
+    },
+    "language_list": [
+        "English",
+        "Francais",
+        "UefiNameSpace"
+    ]
+}
